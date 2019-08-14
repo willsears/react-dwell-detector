@@ -4,6 +4,14 @@
 
 [![NPM Version][npm-image]][npm-url]
 
+## Intro
+
+I developed this package as I reflected on some work I did around tracking user events in a React application (plus having some of my time free up).
+
+Our tracking API was being sent too much data for bar chart hovers. If a user moved the mouse over a bar and out again after a certain amount of time, we wanted to ignore it, as they were probably just moving the mouse through the element to inspect another. Once a user spends a certain amount of time with their mouse inside an element, they are deemed to be "dwelling" on it, and a tracking event should be recorded. This was achieved with closures around mouse event handlers, but the implementation wasn't easily re-usable for other places we wanted to track hovers.
+
+This package attempts to encapsulate the same behaviour in a nicer, more re-usable component interface.
+
 ## Install
 
 ```bash
