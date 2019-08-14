@@ -7,12 +7,8 @@
 ## Install
 
 ```bash
-npm i --save react-dwell-detector
+npm install --save git+https://github.com/willsears/react-dwell-detector.git
 ```
-
-## Example
-
-See https://a-website-i-need-to-make for an example use-case using `react-dwell-detector`: submitting requests to a tracking API.
 
 ## Usage
 
