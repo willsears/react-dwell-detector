@@ -10,6 +10,10 @@
 npm install --save git+https://github.com/willsears/react-dwell-detector.git
 ```
 
+## Example
+
+See https://willsears.github.io/react-dwell-detector-example/ to see an app using react-dwell-detector to detect dwells vs simple mouseovers.
+
 ## Usage
 
 ```javascript
